@@ -15,11 +15,17 @@ use Illuminate\Support\Facades\Route;
 
 
 //homepage
-Route::get('/', function () {
+// Route::get('/', function () {
 
-    //get comics list
-    $comics = config('comics');
-    //dd($comics);
-                       //usiamo compact per far vedere l'array comics
-    return view('home', compact('comics'));
-})->name('home');
+//     //get comics list
+//     $comics = config('comics');
+//     //dd($comics);
+//                        //usiamo compact per far vedere l'array comics
+//     return view('home', compact('comics'));
+// })->name('home');
+
+// usando CONTROLLER
+Route::get('/', 'HomeController@index')->name('home');
+
+//comics details
+Route::get('/comic7{id}', 'ComicController@show')->name('comic-detail');
