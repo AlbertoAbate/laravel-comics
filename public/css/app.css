@@ -49,8 +49,17 @@ a {
   color: dodgerblue;
 }
 
+.green {
+  background-color: green;
+  border: none;
+}
+
 .mr2 {
   margin-right: 30px;
+}
+
+.ml {
+  margin-left: 50px;
 }
 
 .bw {
@@ -186,4 +195,30 @@ a {
   border-radius: 15px;
   background-color: gray;
   color: #373737;
+}
+
+.details h1 {
+  color: #173031;
+  margin-bottom: 20px;
+}
+.details .price {
+  max-width: 570px;
+  padding: 10px 20px;
+  background-color: green;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.details .price button {
+  padding: 0 0 0 10px;
+  color: #fff;
+  border-left: 2px solid black;
+}
+.details .text {
+  max-width: 570px;
+  line-height: 25px;
+}
+
+.talent {
+  padding: 200px 0;
+  background-color: #f3f0f0;
 }
