@@ -20,7 +20,7 @@
                     @endforeach 
                  </ul>
             </div>
-            <div class="container flex justify">
+            <div class="button-ssection container flex justify">
                 <button type="submit">LOAD MORE</button>
             </div>
         </section>

@@ -103,6 +103,21 @@
             </div>
         </div>
     
-        <div class="footer-bottom"></div>
+        <div class="footer-bottom">
+            <div class="container flex jspace align-items">
+                <div class="button-footer">
+                    <button class="bw">SIGN-UP NOW!</button>
+                </div>
+
+                <div class="social">
+                    <span class="mr">FOLLOW US</span>
+                    <i class="fab fa-facebook mr"></i>
+                    <i class="fab fa-twitter mr"></i>
+                    <i class="fab fa-instagram mr"></i>
+                    <i class="fab fa-facebook mr"></i>
+                    <i class="fas fa-map-marker-alt mr"></i>
+                </div>
+            </div>
+        </div>
     </div>
 </footer>

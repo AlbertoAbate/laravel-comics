@@ -58,7 +58,18 @@ a {
   color: #fff;
 }
 
+.header-top {
+  background-color: dodgerblue;
+  padding: 4px;
+}
+.header-top .power {
+  justify-content: right;
+  font-size: 10px;
+  color: #fff;
+}
+
 .main-header {
+  position: relative;
   padding: 20px 0;
 }
 .main-header img {
@@ -68,6 +79,18 @@ a {
 .main-header ul li a {
   font-weight: bold;
   color: #333;
+}
+.main-header .search {
+  margin-left: 30px;
+}
+.main-header .search:before {
+  content: "";
+  position: absolute;
+  width: 110px;
+  height: 3px;
+  background-color: dodgerblue;
+  right: 301px;
+  bottom: 40px;
 }
 
 .first-section {
@@ -79,7 +102,7 @@ a {
 .first-section img {
   padding-left: 150px;
   position: absolute;
-  bottom: 235px;
+  bottom: 218px;
 }
 
 .second-section {
@@ -101,7 +124,7 @@ a {
   font-size: 14px;
 }
 
-button {
+.button-ssection button {
   padding: 5px 30px;
   background-color: dodgerblue;
   border-color: dodgerblue;
@@ -141,4 +164,26 @@ button {
 }
 .footer-top .logo-footer img {
   width: 400px;
+}
+
+.footer-bottom {
+  padding: 20px 5px 10px 5px;
+  background-color: #3b3b3b;
+}
+.footer-bottom .button-footer button {
+  padding: 10px;
+  background-color: #3b3b3b;
+  border-color: dodgerblue;
+  cursor: pointer;
+}
+.footer-bottom .social span {
+  font-weight: bold;
+  color: dodgerblue;
+}
+.footer-bottom .social i {
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color: gray;
+  color: #373737;
 }

@@ -16,3 +16,30 @@
         width: 400px;
     }
 }
+
+.footer-bottom {
+    padding: 20px 5px 10px 5px;
+    background-color: rgb(59, 59, 59);
+    
+
+    .button-footer button {
+        padding: 10px;
+        background-color: rgb(59, 59, 59);
+        border-color: dodgerblue;
+        cursor: pointer;
+    }
+
+    .social {
+        span {
+            font-weight: bold;
+            color: dodgerblue;
+        }
+        i {
+            padding: 5px;
+            border: 1px solid gray;
+            border-radius: 15px;
+            background-color: gray;
+            color: #373737;
+        }
+    }
+}
