@@ -23,12 +23,25 @@ a {
 .mr {
     margin-right: 10px;
 }
+.mb {
+    margin-bottom: 10px;
+}
 .align-items {
     align-items: center;
+}
+.justify {
+    justify-content: center;
+}
+.jspace {
+    justify-content: space-between;
 }
 .dodgerblue {
     color: dodgerblue;
 }
 .mr2 {
     margin-right: 30px;
+}
+.bw {
+    font-weight: bold;
+    color: #fff;
 }
