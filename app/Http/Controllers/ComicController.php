@@ -38,6 +38,11 @@ class ComicController extends Controller
             }
         }
 
+        //SE LA PAGINA CERCATA NON ESISTE INSERIAMO UN MESSAGGIO DI ERRORE
+        if (empty($comic)) {
+            abort(404);
+        }
+
 
         return view('comics.show', compact('comic'));
     }
