@@ -29,7 +29,7 @@ class ComicController extends Controller
         $comic = [];
         foreach ($comics as $item) {
             //title => slug
-            $titleConverted = $slug = Str::slug($item['title'], '-');
+            $titleConverted = Str::slug($item['title'], '-');
 
             //decisione
             if ($slug == $titleConverted) {
